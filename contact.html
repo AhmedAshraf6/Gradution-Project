@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">
+        <meta name='viewport' content="width=device-width,initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"> 
+        <title>graduation project</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>      
+    <!-- Strat NavBar -->
+        <nav class='navbar navbar-inverse navbar-fixed-top'>
+            <div class='container'>      
+                <!-- Start Brand And Toggle -->
+                
+                <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#axit-nav' aria-expanded='false'>
+                    <span class='sr-only'>Toggle navigation</span>
+                    <span class='icon-bar'></span>
+                    <span class='icon-bar'></span>
+                    <span class='icon-bar'></span>
+                </button>
+                <a class='navbar-brand' href='#'>
+                Autism</a>
+                
+                <!-- End Brand And Toggle -->
+                
+                <!-- Start Nav Links -->
+                
+                <div class='collapse navbar-collapse' id='axit-nav'>
+                    <ul class='nav navbar-nav navbar-right'>
+                        <li><a href='home.html'>home</a></li>
+                        <li><a href='services.html'>services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="treatment.html">Treatment</a></li>
+                        <li><a href="qustions.html">Questions</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                        <li><a href="sign.html">sign Up</a></li>
+                        <li><a href="log.html">Log In</a></li>
+                        <li><a href="payment.html">payment</a></li>
+                        <li role="separator" class="divider"></li>
+                    </ul>
+                </div>
+                
+                <!-- End Nav Links -->
+        
+            </div> <!-- container -->            
+        </nav>
+
+    <!-- End NavBar -->
+        
+    <!-- Start Form -->
+        <div class="container">
+            <h1 class="text-center">Contact Me</h1>
+            <form class="contact" action="<?php echo $_SERVER['PHP_SELF']?>" method='POST'>
+                        
+                <div class="form-group">
+                    <input type="text" class="form-control username" name="username" placeholder="type Your Username" />
+                    <i class="fas fa-user fa-fw"></i> 
+                    <span class="asterisx">*</span>
+                    <div class="alert alert-danger custom-alert">
+                        username must be larger than <strong>3</strong> charcter
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control email" name="email" placeholder="Please Type a Valid Email" />
+                    <i class="fas fa-envelope fa-fw"></i>
+                    <span class="asterisx">*</span>
+                    <div class="alert alert-danger custom-alert">
+                        Email Can't Be  <strong>Empty</strong>
+                    </div>
+                </div>
+                <input type="text" class="form-control" name="cellphone" placeholder="Type Your Cell Phone"/>
+                <i class="fas fa-phone-alt fa-fw"></i>
+                <div class="form-group">
+                    <textarea class="form-control message" name="message" placeholder='Your Message!'></textarea>
+                    <div class="alert alert-danger custom-alert">
+                        message can't be less than<strong>10</strong> charcter
+                    </div>
+                </div>
+                <input class="btn btn-success" type="submit" value="Send Message"> 
+                <i class="fas fa-paper-plane fa-fw send"></i>
+            </form>
+        </div>
+
+        <!-- End Form -->
+        
+    
+    <script src="js/jquery-1.12.4.min.js"></script>   
+    <script src="js/bootstrap.min.js"></script>    
+    <script src="js/main.js"></script>
+    </body>
+</html>

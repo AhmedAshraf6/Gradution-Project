@@ -1,0 +1,758 @@
+/* Start Global Rulez */
+body{
+    
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    background-color: #DDD
+}
+/* End Global Rulez */
+
+/* Start Header */
+
+.services{
+    background:url('../imgs/f.jpg') no-repeat top center;
+    background-size: cover;
+    min-height:100vh;
+    position:relative;
+    color:#fff;
+    background-attachment: fixed;
+   
+}
+
+.services .overlay{
+    
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,.7);
+}
+services .centering-vh{
+margin-top:25vh    
+}
+
+.services h1{
+    font-weight:bold;
+    font-size:60px
+}
+
+.services h1 span{
+    font-weight:normal;
+    color:#9e2e2e
+}
+.services .lead
+{
+    font-size:20px;
+    color:#c1bcbc
+}
+
+.services p:nth-of-type(2)
+{
+ color:#ccc5c5;
+ font-weight: 200;
+    margin-bottom: 30px
+}
+
+.services .lead:after{
+    content:'';
+    display: none;
+    width:60px;
+    height:2px;
+    background-color:#fff;
+    margin:15px 0;
+    
+}
+.services  a{
+    background: transparent;
+    border:2px solid #c1bcbc;
+    padding:5px 15px;
+    margin-top:20px;
+    transition: .5s;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff
+}
+.services  a:hover{
+    background: black;
+     border:2px solid black;
+}
+/* End Header */
+
+/* Start Services */
+.header{
+    background:url('../imgs/nathan-anderson-FHiJWoBodrs-unsplash.jpg') no-repeat top center;
+    background-size: cover;
+    min-height:100vh;
+    position:relative;
+    color:#fff;
+    background-attachment: fixed;
+  
+}
+
+.header .overlay{
+    
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,.7);
+}
+header .centering-vh{
+margin-top:25vh    
+}
+
+.header h1{
+    font-weight:bold;
+    font-size:60px
+}
+
+.header h1 span{
+    font-weight:normal;
+    color:#9e2e2e
+}
+.header .lead
+{
+    font-size:30px;
+    color:#c1bcbc
+}
+
+.header p:nth-of-type(2)
+{
+ color:#ccc5c5;
+ font-weight: 200;
+    margin-bottom: 30px
+}
+
+.header .lead:after{
+    content:'';
+    display: block;
+    width:60px;
+    height:2px;
+    background-color:#fff;
+    margin:15px 0;
+}
+.header  a{
+    background: transparent;
+    border:2px solid #c1bcbc;
+    padding:5px 15px;
+    margin-top:20px;
+    transition: .5s;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff
+}
+.header  a:hover{
+    background: black;
+     border:2px solid black;
+}
+
+/* End Services */
+
+/* Start About */
+
+.about{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+    
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #fff;
+  color: black;
+}
+.flip-card-front h1{
+    color: #000000;
+    font-size: 63px;
+    margin-top: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center
+
+}
+.flip-card-back p{
+    font-size: 15pz;
+    font-weight: bold;
+    text-align: center;
+
+}
+/* End About */
+
+/* Start Videos */
+.video {
+margin: 30px 50px;
+}
+
+.video .disc-video h2{
+font-size: 37px;
+    cursor: pointer;
+    color: #b64008;
+    text-transform: capitalize
+    
+}
+.video .disc-video p{
+    font-size: 16px;
+    color:#073f5a;
+    background-color: #b89595;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+/* end Videos */
+
+/* Strat Form */
+.alert{
+    margin-bottom: 10px
+}
+.alert-dismissible .btn-close{
+  top:-19px;
+  right: -14px;
+} 
+h1{
+    font-family:  'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: -3px;
+    color: #757575;
+    margin-top: 60px
+}
+.contact{
+    max-width: 450px;
+    margin: 20px auto;
+}
+.contact .form-group{
+    position: relative
+}
+.contact input{
+    padding-left:36px
+}
+.contact input,
+.contact textarea{
+    margin-bottom: 10px
+}
+.contact textarea{
+    height: 180px
+}
+.contact input:not([type='submit']) +i{
+    height: 0;
+    float: left;
+    position: relative;
+    top:-35px;
+    left: 10px;
+    color: #999;  
+}
+.contact .asterisx{
+    color:red;
+    height: 0;
+    font-size:22px;
+    position: absolute;
+    right: 10px;
+    top:6px
+}
+.contact .send{
+    display: block;
+    position: relative;
+    top: -36px;
+    left: 7px;
+    color: #fff
+}
+.contact .custom-alert{
+    padding: 5px 10px;
+    display: none
+}
+  
+/* End Form */
+
+/* Start Sign and lognin */
+.login{
+    padding: 47px 30px;
+    background-color: #f3f0f0;
+    width: 38%;
+    height: 41%;
+    margin:  auto;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 40px
+    
+}
+.login .login-fields{
+    display: grid
+}
+.login .login-fields label{
+    padding-bottom: 10px;
+    color: #8e8787
+}
+.login .login-fields input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #d2d0d0;
+    background-color: rgba(218,218,218,.19);
+    outline: none;
+    height: 40px;
+    color: #908585;
+    border-radius: 4px;
+}
+.login .login-fields input:not([type='submit']):focus::-webkit-input-placeholder{
+    opacity: 0;
+    transition: .3s
+}
+.login .login-info{
+    display: flex
+}
+.login .login-info p{
+    color:#8e8787;
+    padding-right: 10px
+}
+.login .login-info a{
+    text-decoration: none;
+    color:#f84e62;
+    font-weight: bold;
+    font-size:17px
+}
+.login button{
+background-color: #fff;
+    text-align: center;
+    border-radius: 50px;
+    width: 162px;
+    line-height: 30px;
+    font-size: 16px;
+    background: transparent;
+    font-weight: 400;
+    transition: 0.5s;
+    color: #f84e62;
+    border: 2px solid #f84e62;
+}
+.login button:hover{
+        background: -webkit-linear-gradient(right,rgba(253,130,86,1),rgba(247,75,98,1));
+    color: #fff
+}
+/* End sign and login */
+
+/* Start payment */
+
+/* CSS for Credit Card Payment form */
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+    
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
+
+/* Start Qustions */
+html {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+quiz-box-container {
+  background-color: rgb(17, 17, 17);
+  font-family: 'Roboto Slab';
+  color:#fff;
+}
+
+.wrapper {
+  height: 350px;
+  width: 700px;
+  margin: 150px auto;
+    
+}
+
+.quiz-box {
+    height: 100%;
+    border: 3px solid rgba(255, 255, 255, 1);
+    background-color:darkred;
+    border-radius: 0px 10%;
+    box-shadow: 0px 0px 13px 2px rgb(0, 0, 0);
+}
+
+.navigation-buttons {
+  text-align: center;
+  padding: 10px 0px;
+  float: right;
+}
+
+.name-box {
+  text-align: center;
+  padding: 10%;
+  height: 100%;
+}
+
+.name-box span {
+  font-weight: 500;
+  font-size: 3em;
+}
+
+#name-input-box {
+  height: 45px;
+  padding: 0;
+  margin-top: 20px;
+  font: 400 3rem 'Roboto Slab';
+  letter-spacing: 0.025em;
+  border: none;
+  background: transparent;
+  text-align: center;
+  outline: none;
+  border-bottom: solid thin rgba(238, 238, 238, 0.12);
+}
+
+button {
+  border: none;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border-radius: 0px 10px;
+  background: transparent;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 0px 10px;
+}
+
+button:disabled{
+  display:none;
+}
+
+#name-submit-button {
+  margin-top: 30px;
+}
+
+.quiz {
+  height: 100%;
+  padding: 10px;
+}
+
+#question h2 {
+  font-weight: 600;
+  padding: 20px;
+}
+
+.options {
+  height: 70%;
+  height: 100%;
+  padding-left: 20px;
+}
+
+.options label {
+  width: 49%;
+}
+
+
+/* Radio Button*/
+
+@-webkit-keyframes click-wave {
+  0% {
+    height: 40px;
+    width: 40px;
+    opacity: 0.35;
+    position: relative;
+    outline: none;
+  }
+  100% {
+    height: 200px;
+    width: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0;
+    outline: none;
+  }
+}
+
+@-moz-keyframes click-wave {
+  0% {
+    height: 40px;
+    width: 40px;
+    opacity: 0.35;
+    position: relative;
+    outline: none;
+  }
+  100% {
+    height: 200px;
+    width: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0;
+    outline: none;
+  }
+}
+
+@keyframes click-wave {
+  0% {
+    height: 40px;
+    width: 40px;
+    opacity: 0.35;
+    position: relative;
+    outline: none;
+  }
+  100% {
+    height: 200px;
+    width: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0;
+    outline: none;
+  }
+}
+
+.option-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  top: 13px;
+  -webkit-transition: all 0.15s ease-out 0s;
+  -moz-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
+  border: none;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+}
+
+.option-input:hover {
+  background: #9faab7;
+  outline: none;
+}
+
+.option-input:checked {
+  background: black;
+}
+
+.option-input:checked::before {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  content: '\2713';
+  display: inline-block;
+  font-size: 26.66667px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.option-input:checked::after {
+  -webkit-animation: click-wave 0.65s;
+  -moz-animation: click-wave 0.65s;
+  animation: click-wave 0.65s;
+  background: white;
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+
+.option-input.radio {
+  border-radius: 50%;
+  outline: none !important;
+  margin-right: 10px;
+  border: 2px solid #fff;
+}
+
+.option-input.radio::after {
+  border-radius: 50%;
+  outline: none;
+}
+
+label {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+/*Pie chart style starts*/
+
+
+.score-detail,.chart {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    vertical-align: top;
+    margin-top:10px;
+}
+
+
+.easyPieChart {
+  position: relative;
+  text-align: center;
+}
+.easyPieChart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.percentage,
+.label {
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-weight: 100;
+}
+
+.percentage {
+  font-size: 17px;
+}
+
+sup {
+  top: -0.2em;
+  margin-left: 1px;
+}
+
+.ctrl {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  color: #c4cdcc;
+  word-spacing: 5px;
+}
+
+/*Pie chart style ends*/
+
+#result{
+  padding:10px;
+  height:100%;
+}
+#result .score-label h1{
+  font-weight:600;
+}
+#result .score-label h1 i{
+  margin-left:10px;
+}
+#result .score-label h1,#result .message{
+  text-align:center;
+}
+
+#result .score-detail h3{
+  margin-top: 19px;
+  padding-left: 15px;
+}
+
+#result-stats{
+  padding:20px;
+}
+
+table, td, th {
+  padding:10px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table td .grey{
+  color:rgba(255, 255, 255, 0.47);
+}
+th {
+    text-align: left;
+  font-size:1.2em;
+}
+#result-stats .fa{
+  margin-right:5px;
+}
+
+#result-stats .fa-check-circle{
+  color:#06ff00;
+}
+#result-stats .fa-times-circle{
+  color:#ff3d00;
+}
+/* End Qustions */
+
+
+
+
+
+
+
+
+
+
+/* end payment */
